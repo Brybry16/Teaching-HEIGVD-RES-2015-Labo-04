@@ -3,6 +3,7 @@ package ch.heigvd.res.labs.http.impl;
 import ch.heigvd.res.labs.http.interfaces.IHttpHeader;
 import ch.heigvd.res.labs.http.interfaces.IHttpRequest;
 
+import java.net.URI;
 import java.util.Map;
 
 /**
@@ -21,6 +22,10 @@ public class HttpRequest implements IHttpRequest {
         setMethod(r.getMethod());
         setProtocolVersion(r.getProtocolVersion());
         setURI(r.getURI());
+    }
+
+    public void parseURI() {
+        
     }
 
     @Override
