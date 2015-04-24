@@ -9,6 +9,9 @@ import ch.heigvd.res.labs.http.interfaces.IHttpResponse;
  */
 public class HttpClient implements IHttpClient {
 
+    public HttpClient() {
+    }
+
     @Override
     public IHttpResponse sendRequest(IHttpRequest request) {
         return null;
