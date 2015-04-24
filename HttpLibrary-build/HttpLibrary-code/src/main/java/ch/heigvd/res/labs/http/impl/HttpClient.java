@@ -11,6 +11,6 @@ public class HttpClient implements IHttpClient {
 
     @Override
     public IHttpResponse sendRequest(IHttpRequest request) {
-        return sendRequest(request);
+        return null;
     }
 }
